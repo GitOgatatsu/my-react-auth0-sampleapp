@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import LoginButton from './login';
+import LogoutButton from './logout';
+import Profile from "./profile";
 
 function App() {
   return (
@@ -16,7 +19,10 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+				</a>
+				<LoginButton />
+				<LogoutButton />
+				<Profile />
       </header>
     </div>
   );
